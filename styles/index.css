@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@media screen and (max-width: 500px) {
+    table {
+      width: 100%;
+    }
+  }
+
+header {
+    width: 100%;
+    height: 55px;
+    position: fixed;        
+    background: maroon;
+    padding: 0px 0;
+    color: #fff;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background: #222222;
+    padding-top: 55px;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+
+header > a > img {
+    width: 50px;
+    float: right;
+    padding: 3px 2px;
+}
+
+.ltp-logo {
+    width: 24%;
+    float: right;
+}
+
+.whoami-header {
+    text-align: center;
+}
+
+.whoami {
+    width: 400px;
+    float: left;
+}
+
+.bio {
+    text-align: right;
+    float: right;
+}
+
+table {
+    width: 99%;
+}
+
+.specs {
+    text-align: center;
+}
+
+.specs-table {
+    width: 50%;
+    float: center;
+    text-align: center;
+    margin-left: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    border: 1px solid #ffffff;
+    border-collapse: separate;
+    *border-collapse: collapse;
+    border-left: 0;
+    border-spacing: 0;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+    border-left: 1px solid #ffffff;
+}
+
+.ghprojects {
+    width: 50%;
+    float: center;
+    text-align: center;
+    margin-left: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+}
